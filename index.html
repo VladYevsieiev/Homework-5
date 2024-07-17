@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--1 -->
+<div class="ex1">
+<button class="btn">Start now</button>
+</div>
+
+<!--2 -->
+<div class="ex2">
+<input type="text" id="userInput" value="Hello,Palmo!">
+<button id="changeTextBtn">Continue</button>
+</div>
+
+<!-- 3 -->
+<div class="ex3">
+    <input type="text" id="userInput3" name="userInput3">
+    <button id="button3">Submit</button>
+</div>
+
+
+<!-- 4 -->
+
+<div class="ex4">
+    <h1 id="header1">Header 1</h1>
+    <h1 id="header2">Header 2</h1>
+    <button id="button4">поменяй Headers</button>
+
+
+</div>
+
+<!-- 5 -->
+<div class="ex5">
+    <p class="text5" id="paragraph">Rome wasn’t built in a day.</p>
+    <button id="pbttn">True!</button>
+
+</div>
+
+<!-- 6 -->
+
+<div class="ex6">
+    <input type="text" id="userInput6" name="userInput6">
+    <button id="button6">Next</button>
+
+</div>
+
+
+<!-- 7 -->
+
+<div class="ex7">
+    <div class="square green" id="greenSquare"></div>
+    <div class="square red" id="redSquare"></div>
+</div>
+
+
+<!-- 8 -->
+<div class="ex8">
+    <button id="listButton">Добавить элемент в список</button>
+    <ul id="list"></ul>
+</div>
+
+<!-- 9 -->
+<div class="ex9">
+
+
+
+    <textarea id="myTextarea"  rows="4" cols="50" placeholder="Введите значения через запятую...">
+ </textarea>
+
+    <button id="button9">Create</button>
+<ul id="resultList"></ul>
+
+
+
+</div>
+
+<!-- 10 -->
+<div class="ex10">
+    <h1>Регистрация нового пользователя</h1>
+    <form id="userForm">
+        <div class="form-group">
+            <label for="username">Имя пользователя:
+            </label>
+            <input type="text" id="username" name="username">
+            <span class="error" id="usernameError"></span>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <span class="error" id="emailError"></span>
+        </div>
+
+        <div class="form-group">
+        <label for="age">Возраст:</label>
+        <input type="text" id="age" name="age">
+        <span class="error" id="ageError"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password">
+            <span class="error" id="passwordError"></span>
+
+
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword">Подтвердите пароль:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+            <span class="error" id="confirmPasswordError"></span>
+
+
+        </div>
+
+        <button type="submitReg" class="submitReg">Зарегистрироваться</button>
+
+    </form>
+
+</div>
+
+<div class="ex11">
+    <form name="calc" id="calculator">
+        <table>
+            <tr>
+                <td>
+                    <input type="text" name="input" size="16" class="display">
+                </td>
+            </tr>
+            <tr>
+                <td class="buttonsCalc">
+                    <input type="button" name="one" value="1" OnClick="calc.input.value += '1'">
+                    <input type="button" name="two" value="2" OnClick="calc.input.value += '2'">
+                    <input type="button" name="three" value="3" OnClick="calc.input.value += '3'">
+                    <input type="button" name="add" value="+" OnClick="calc.input.value += '+'">
+                    <br>
+                    <input type="button" name="four" value="4" OnClick="calc.input.value += '4'">
+                    <input type="button" name="five" value="5" OnClick="calc.input.value += '5'">
+                    <input type="button" name="six" value="6" OnClick="calc.input.value += '6'">
+                    <input type="button" name="sub" value="-" OnClick="calc.input.value += '-'">
+                    <br>
+                    <input type="button" name="seven" value="7" OnClick="calc.input.value += '7'">
+                    <input type="button" name="eight" value="8" OnClick="calc.input.value += '8'">
+                    <input type="button" name="nine" value="9" OnClick="calc.input.value += '9'">
+                    <input type="button" name="mul" value="x" OnClick="calc.input.value += '*'">
+                    <br>
+                    <input type="button" name="clear" value="c" OnClick="calc.input.value = ''">
+                    <input type="button" name="zero" value="0" OnClick="calc.input.value += '0'">
+                    <input type="button" name="doit" value="=" OnClick="calc.input.value = eval(calc.input.value)">
+                    <input type="button" name="div"  value="/" OnClick="calc.input.value += '/'">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<div class="ex12">
+
+    <div class="product-list">
+        <div class="product">
+            <p>Product 1</p>
+            <button class="add-to-cart" data-product="Product 1">Add to Cart</button>
+        </div>
+        <div class="product">
+            <p>Product 2</p>
+            <button class="add-to-cart" data-product="Product 2">Add to Cart</button>
+        </div>
+        <div class="product">
+            <p>Product 3</p>
+            <button class="add-to-cart" data-product="Product 3">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart-icon" id="cart-icon">🛒</div>
+
+    <div class="modal" id="cart-modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <button id="clear-cart">Clear Cart</button>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

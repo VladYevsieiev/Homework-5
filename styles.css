@@ -1,0 +1,226 @@
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+
+.ex1 {
+    margin-top: 20px;
+}
+
+.ex2 {
+    margin-top: 30px;
+
+
+}
+
+.ex3 {
+    margin-top: 30px;
+}
+
+.ex4 {
+    margin-top: 30px;
+}
+
+.ex5 {
+    margin-top: 30px;
+}
+
+.ex6 {
+    margin-top: 30px;
+}
+
+.ex7 {
+    margin-top: 30px;
+}
+
+.ex8 {
+    margin-top: 30px;
+}
+
+.ex9 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.text5 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium";
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: slategrey;
+
+}
+
+.form-group {
+padding: 10px;
+}
+
+.submitReg {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submitReg:hover {
+    background-color: #0056b3;
+}
+
+
+
+.ex10 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ex10 h1 {
+    margin-bottom: 700px;
+    color: #333;
+    display: flex;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.form-group input.error {
+    border: 1px solid red;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+    display: none;
+}
+.ex11 {
+    margin-top: 20px;
+   padding: 20px;
+    background-color: grey;
+    width: 165px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+.buttonsCalc{
+    padding: 5px;
+    border-spacing:3px;
+
+}
+
+#calculator table {
+    border: solid 3px silver;
+    border-spacing: 3px;
+    background-color: #EEE;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.add-to-cart {
+    margin-top: 10px;
+}
+
+.cart-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
